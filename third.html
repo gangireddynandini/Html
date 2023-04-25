@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style>
+            .red{
+                color:green;
+            }
+            label{
+                font-size: 20;
+                font-style: italic;
+            }
+            div{
+                border: 2px;
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <h1><center>Google Forms</center></h1>
+    <title>forms</title>
+    <body>
+        <form action="/login">
+            <div>
+        <label for="first">First name</label>
+        <input type="text" id="first" required>
+        </div>
+        <div>
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date" required>
+        </div>
+        <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        </div>
+        <div>
+        <label for="pass">Password</label>
+        <input type="password" id="password" required >
+        </div>
+        <div>
+            <h2>languages known</h2>
+        <label for="check">English</label>
+        <input type="checkbox" id="check" name="po" value="1">
+        </div>
+        <div>
+            <label for="exp">Hindi</label>
+            <input type="checkbox" id="exp"  name="po" value="1">
+            </div>
+        <fieldset>
+            <legend>choose your gender</legend>
+        <div>
+        <label for="mal">Male</label>
+        <input type="radio" id="mal" name="gh" required>
+        </div>
+        <div>
+        <label for="fem">Female</label>
+        <input type="radio" id="fem" name="gh">
+        </div>
+        <div>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name='gh'>
+        </div>
+        </fieldset>
+        <h2>select the course you want</h2>
+        <label for="sel">make a selection</label>
+        <select name="skill" id="sel">
+        <option value="c">C</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="django">Django</option>
+        </select>
+        <div>
+        <h3>If you are already then how much proficient you are</h3>
+        <label for="c">c</label>
+        <input type="range" id="c" value="2" step="2">
+        <label for="java">Java</label>
+        <input type="range" min="0" max="10" step="2"  value='0'id="java">
+        <label for="python">Python</label>
+        <input type="range" step='2'id="python" value="0">
+        <label for="jango">Django</label>
+        <input type="range" step='2' id="jango" value="0">
+        <hr>
+        <p>hiii good evening <span class="red">Nandini</span> may i know the <span class='red'>reason</span> why you are leabing the group</p>
+        <h2>Audio</h2>
+        <audio src="htmlaudio.mp3" controls></audio>
+        <button>submit</button>
+
+        </div>
+        </form>
+
+
+
+
+
+
+
+    </body>
+</html>
